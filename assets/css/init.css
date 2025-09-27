@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'FrauncesSemiBold';
+  src: url('../../assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf') format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'ManropeRegular';
+  src: url('../../assets/fonts/fraunces/static/Manrope-Regular.ttf') format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../../assets/fonts/manrope/Manrope-VariableFont_wght.ttf');
+  font-weight: 400 600 700;
+}
+
+:root {
+  --color-green: #44FFA1;
+  --color-slate-900: #24053E;
+  --color-slate-500: #584D62;
+  --color-slate-100: #FCF8FF;
+  --color-white: #FFFFFF;
+
+  --text-preset-1-font-size: 80px;
+  --text-preset-1-line-height: 100%;
+  --text-preset-1-font-weight: normal;
+  --text-preset-1-font-family: 'FrauncesSemiBold', serif;
+  --text-preset-2-font-size: 56px;
+  --text-preset-2-line-height: 120%;
+  --text-preset-2-font-weight: normal;
+  --text-preset-2-font-family: 'FrauncesSemiBold', serif;
+  --text-preset-3-font-size: 32px;
+  --text-preset-3-line-height: 120%;
+  --text-preset-3-font-weight: normal;
+  --text-preset-3-font-family: 'FrauncesSemiBold', serif;
+  --text-preset-4-font-size: 18px;
+  --text-preset-4-line-height: 180%;
+  --text-preset-4-font-weight: 300;
+  --text-preset-4-font-family: 'ManropeRegular', sans-serif;
+  --text-preset-5-font-size: 18px;
+  --text-preset-5-line-height: 150%;
+  --text-preset-5-font-weight: 600;
+  --text-preset-5-font-family: 'Manrope', sans-serif;
+
+  --text-preset-1-tablet-font-size: 60px;
+  --text-preset-1-tablet-line-height: 100%;
+  --text-preset-1-tablet-font-weight: normal;
+  --text-preset-1-tablet-font-family: 'FrauncesSemiBold', serif;
+  --text-preset-2-tablet-font-size: 48px;
+  --text-preset-2-tablet-line-height: 120%;
+  --text-preset-2-tablet-font-weight: normal;
+  --text-preset-2-tablet-font-family: 'FrauncesSemiBold', serif;
+  --text-preset-3-tablet-font-size: 28px;
+  --text-preset-3-tablet-line-height: 120%;
+  --text-preset-3-tablet-font-weight: normal;
+  --text-preset-3-tablet-font-family: 'FrauncesSemiBold', serif;
+  --text-preset-4-tablet-font-size: 16px;
+  --text-preset-4-tablet-line-height: 180%;
+  --text-preset-4-tablet-font-weight: 300;
+  --text-preset-4-tablet-font-family: 'ManropeRegular', sans-serif;
+
+  --text-preset-1-mobile-font-size: 48px;
+  --text-preset-1-mobile-line-height: 100%;
+  --text-preset-1-mobile-font-weight: normal;
+  --text-preset-1-mobile-font-family: 'FrauncesSemiBold', serif;
+  --text-preset-2-mobile-font-size: 32px;
+  --text-preset-2-mobile-line-height: 120%;
+  --text-preset-2-mobile-font-weight: normal;
+  --text-preset-2-mobile-font-family: 'FrauncesSemiBold', serif;
+  --text-preset-3-mobile-font-size: 24px;
+  --text-preset-3-mobile-line-height: 120%;
+  --text-preset-3-mobile-font-weight: normal;
+  --text-preset-3-mobile-font-family: 'FrauncesSemiBold', serif;
+  --text-preset-4-mobile-font-size: 16px;
+  --text-preset-4-mobile-line-height: 180%;
+  --text-preset-4-mobile-font-weight: 300;
+  --text-preset-4-mobile-font-family: 'ManropeRegular', sans-serif;
+
+  --spacing-100: 8px;
+  --spacing-150: 12px;
+  --spacing-200: 16px;
+  --spacing-250: 20px;
+  --spacing-300: 24px;
+  --spacing-350: 28px;
+  --spacing-400: 32px;
+  --spacing-500: 40px;
+  --spacing-550: 44px;
+  --spacing-600: 48px;
+  --spacing-700: 56px;
+  --spacing-800: 64px;
+  --spacing-1000: 80px;
+  --spacing-1100: 88px;
+  --spacing-1400: 112px;
+  --spacing-1600: 128px;
+  --spacing-1800: 144px;
+  --spacing-2100: 168px;
+  --spacing-3700: 296px;
+}
