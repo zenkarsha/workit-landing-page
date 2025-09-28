@@ -28,6 +28,7 @@ header {
   height: 932px;
   position: relative;
   background-color: var(--color-slate-100);
+  padding-bottom: var(--spacing-2100);
 
   .header__nav-wrapper {
     width: 100vw;
@@ -65,11 +66,11 @@ header {
   .header__hero {
     display: flex;
     justify-content: center;
-    height: 680px;
     position: relative;
     background-color: var(--color-slate-900);
     clip-path: ellipse(140% 100% at top);
     overflow: hidden;
+    padding-bottom: calc(var(--spacing-3700) + var(--spacing-800));
 
     .header__hero-wrapper {
       width: 635px;
@@ -128,11 +129,12 @@ main {
 
   .features {
     display: flex;
+    height: 610px;
     justify-content: center;
     align-items: center;
-    height: 610px;
     background-color: var(--color-slate-100);
     clip-path: ellipse(140% 100% at top);
+    padding: var(--spacing-1100) var(--spacing-1000) calc(var(--spacing-1800) + var(--spacing-900)) var(--spacing-1000);
 
     .features__wrapper {
       display: flex;
@@ -142,7 +144,6 @@ main {
 
     .feature__item {
       width: 352px;
-      height: 360px;
       text-align: center;
 
       .feature__number {
@@ -211,7 +212,6 @@ main {
       bottom: 0;
       z-index: 100;
       width: 730px;
-      height: 411px;
       background-color: var(--color-slate-900);
       padding: var(--spacing-800);
 
@@ -309,7 +309,6 @@ footer {
     .header__nav {
       padding: var(--spacing-400) var(--spacing-550);
       padding-bottom: 0;
-      max-width: 680px;
     }
 
     .header__hero {
@@ -422,7 +421,6 @@ footer {
 
       .apply__intro {
         width: 504px;
-        height: 390px;
         padding: var(--spacing-600);
 
         .apply__intro-title {
@@ -450,6 +448,54 @@ footer {
 
   footer {
     padding: var(--spacing-1000);
+  }
+}
+
+@media screen and (max-width: 640px) {
+  main {
+    .apply {
+      .apply__wrapper {
+        width: 400px;
+        height: 720px;
+      }
+
+      .apply__founder {
+        img {
+          width: 400px;
+          height: 400px;
+          margin: auto;
+        }
+      }
+
+      .apply__intro {
+        right: 0;
+        bottom: 0;
+        width: 400px;
+        padding: var(--spacing-400);
+        text-align: center;
+
+        .apply__intro-title {
+          font-size: var(--text-preset-2-tablet-font-size);
+          line-height: var(--text-preset-2-tablet-line-height);
+          font-weight: var(--text-preset-2-tablet-font-weight);
+          font-family: var(--text-preset-2-tablet-font-family);
+          margin-bottom: var(--spacing-400);
+        }
+
+        .apply__intro-content {
+          font-size: var(--text-preset-4-tablet-font-size);
+          line-height: var(--text-preset-4-tablet-line-height);
+          font-weight: var(--text-preset-4-tablet-font-weight);
+          font-family: var(--text-preset-4-tablet-font-family);
+          margin-bottom: var(--spacing-400);
+          max-width: auto;
+        }
+      }
+
+      .apply-deco {
+        display: none;
+      }
+    }
   }
 }
 
@@ -575,7 +621,6 @@ footer {
         right: 0;
         bottom: 0;
         width: 335px;
-        height: 393px;
         padding: var(--spacing-400);
         text-align: center;
 
