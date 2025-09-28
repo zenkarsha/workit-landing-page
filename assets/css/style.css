@@ -190,8 +190,9 @@ main {
 
     .apply__wrapper {
       position: relative;
-      width: 1120px;
+      width: 100%;
       height: 579px;
+      max-width: 1120px;
     }
 
     .apply__founder {
@@ -295,6 +296,22 @@ footer {
 
       .feature__item {
         width: 300px;
+      }
+    }
+
+    .apply {
+      .apply__founder {
+        img {
+          width: 380px;
+          height: 380px;
+        }
+      }
+
+      .apply__intro {
+        width: 640px;
+        background-color: var(--color-slate-900);
+        padding: var(--spacing-600);
+      }
     }
   }
 }
