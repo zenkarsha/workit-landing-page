@@ -286,6 +286,19 @@ footer {
   }
 }
 
+@media screen and (max-width: 1140px) {
+  main {
+    .features {
+      .features__wrapper {
+        gap: var(--spacing-300);
+      }
+
+      .feature__item {
+        width: 300px;
+    }
+  }
+}
+
 @media screen and (max-width: 992px) {
   header {
     height: 676px;
@@ -586,6 +599,4 @@ footer {
       }
     }
   }
-
-
 }
