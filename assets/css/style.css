@@ -233,10 +233,6 @@ main {
         margin-bottom: var(--spacing-400);
         max-width: 598px;
       }
-
-      .button__default {
-
-      }
     }
 
     .apply-deco {
@@ -265,23 +261,13 @@ footer {
     gap: var(--spacing-350);
 
     a {
+      display: block;
       width: 20px;
       height: 20px;
       font-size: 0;
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position: center;
 
-      &.social-link__facebook {
-        background-image: url('../../assets/images/icon-facebook.svg');
-      }
-
-      &.social-link__twitter {
-        background-image: url('../../assets/images/icon-twitter.svg');
-      }
-
-      &.social-link__instagram {
-        background-image: url('../../assets/images/icon-instagram.svg');
+      &:hover svg path {
+        fill: var(--color-slate-900);
       }
     }
   }
